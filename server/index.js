@@ -1,3 +1,3 @@
 const app = require("express");
 const http = require("http").createServer(app);
-const socketio = require("socketio")(http);
+const socketio = require("socket.io")(http);
